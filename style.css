@@ -37,7 +37,8 @@ body {
   font-family: popLight;
 }
 
-.haveThemAll {
+.portofolio {
+  overflow: hidden;
   color: var(--almond-light);
   background: radial-gradient(var(--almond-light), var(--almond-dark));
 }
@@ -151,51 +152,19 @@ nav {
   cursor: pointer;
 }
 
-.almond-right {
+.model-right {
   transform: translate(0%, 10%);
 }
 
-.almond-left {
+.model-left {
   transform: translate(0%, -10%);
 }
 
-.hero:hover .almond-right {
+.hero:hover .model-right {
   transform: translate(0%, 0%);
 }
 
-.hero:hover .almond-left {
-  transform: translate(0%, 0%);
-}
-
-.cashew-right {
-  transform: translate(0%, 10%);
-}
-
-.cashew-left {
-  transform: translate(0%, -10%);
-}
-
-.hero:hover .cashew-right {
-  transform: translate(0%, 0%);
-}
-
-.hero:hover .cashew-left {
-  transform: translate(0%, 0%);
-}
-
-.pecan-right {
-  transform: translate(0%, 10%);
-}
-
-.pecan-left {
-  transform: translate(0%, -10%);
-}
-
-.hero:hover .pecan-right {
-  transform: translate(0%, 0%);
-}
-
-.hero:hover .pecan-left {
+.hero:hover .model-left {
   transform: translate(0%, 0%);
 }
 
